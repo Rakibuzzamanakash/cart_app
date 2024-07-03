@@ -25,7 +25,6 @@ class MyApp extends StatelessWidget {
         ),
         initialRoute: RoutesName.cartView,
         getPages: AppRoutes.appRoutes(),
-
       ),
     );
   }

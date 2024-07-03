@@ -26,6 +26,23 @@ class InvalidUrlException extends AppException {
   InvalidUrlException([String? message]) : super(message, 'Invalid url');
 }
 
+class BadRequestException extends AppException {
+  BadRequestException([String? message]) : super(message, '');
+}
+
+class NotFoundException extends AppException {
+  NotFoundException([String? message]) : super(message, 'Not found');
+}
+
+class MethodNotAllowedException extends AppException {
+  MethodNotAllowedException([String? message]) : super(message, 'Method not allowed');
+}
+
+
 class FetchDataException extends AppException {
   FetchDataException([String? message]) : super(message, '');
+}
+
+class NetworkException extends AppException {
+  NetworkException([String? message]) : super(message, '');
 }

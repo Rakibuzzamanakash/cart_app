@@ -6,7 +6,7 @@ class AppRoutes {
 
   static appRoutes() => [
     GetPage(name: RoutesName.cartView,
-      page: ()=> const CartView(),
+      page: ()=>  CartView(),
       transitionDuration: const Duration(milliseconds: 250),
       transition: Transition.leftToRightWithFade,
     ),
